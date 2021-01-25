@@ -1,0 +1,31 @@
+{
+    "name": "theme-dark-monokai",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "categories": [
+        "Themes"
+    ],
+    "version": "1.0.0",
+    "publisher": "vscode",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "Dark-Monokai",
+                "label": "%darkPlusColorThemeLabel%",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_plus.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "vs-minimal",
+                "label": "%minimalIconThemeLabel%",
+                "path": "./fileicons/vs_minimal-icon-theme.json"
+            }
+        ]
+    }
+}
